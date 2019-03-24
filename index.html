@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon.ico/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon.ico/ms-icon-144x144.png">
+    <meta property="og:title" content="Punktum UB">
+    <meta name="description" content="En ungdomsbedrift med en underholdene og undervisende bok om mensen." />
+    <meta property="og:image" content="bilde.png">
+    <meta property="twitter:image" content="bilde.png">
+    <meta name="theme-color" content="#d97070">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Punktum - Setter punktum for tabu.
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="index-page sidebar-collapse">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " style="background-color: #d97070;" color-on-scroll="200">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://punktumub.com/" rel="tooltip" title="Punktum UB" data-placement="bottom" >
+          <img style="height: 25px;" src="https://punktumub.com/l.png" alt="">
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToProsjekt()">
+
+              <p>Om prosjektet</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToOss()">
+
+              <p>Om oss</p>
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+
+              <p>Produkter</p>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" target="_blank" href="https://punktumbutikken.ga">
+                 Nettbutikk
+              </a>
+              <a class="dropdown-item" target="_blank" href="https://radio.punktumub.com">
+               PMS Radio
+              </a>
+              <a class="dropdown-item" target="_blank" href="https://julekalender.punktumub.com">
+                 Julekalender 2018
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-neutral" href="https://punktumbutikken.ga" target="_blank">
+<i class="now-ui-icons shopping_cart-simple"></i>
+              <p>Nettbutikk</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Send oss en mail" data-placement="bottom" href="mailto:mail@punktumub.com" target="_blank">
+              <i style="" class="fas fa-at fa-lg"></i>
+              <p class="d-lg-none d-xl-none">E-post</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Lik oss på Facebook" data-placement="bottom" href="https://www.facebook.com/Punktum-UB-197856121013496/" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Følg oss på Instagram" data-placement="bottom" href="https://www.instagram.com/punktumub/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('1.jpg');">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="" alt="">
+          <h1 class="h1-seo"><b>La oss sette punktum for tabu.</b></h1>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="main">
+      <div class="section section-images">
+
+
+<div align="center">
+              <div class="hero-images-container">
+                <img src="bilde1.png" alt="">
+              </div>
+
+
+
+        </div>
+      </div>
+
+      <div style="margin-top:-250px;" class="section section-nucleo-icons">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h2 class="title">Tante Røds Ultimate Guide til Mensen og Mat</h2>
+              <h5 class="description">
+                Rundt halvparten av jordens befolkning er kvinner. Dette betyr at en enorm mengde mennesker enten skal ha, har eller har hatt mensen. Mensen tabuet står fortsatt sterkt i mange land fortsatt i dag. Dette synes vi er trist. For er det én ting vi burde kunne snakke om er det kroppen vår og denne naturlige prosessen hver kvinne går gjennom.
+<br><br>
+Derfor hadde vi lyst til å produsere en bok som ville bryte med mensen tabuet. I boken kan du lese om alt fra fakta om mensen, pinlige historier fra hverdagen med tante rød på besøk, rart bruk av mensenblod, et intervju med en historiker og noen deilige oppskrifter du kan kose deg med. Vårt største ønske er at boken skal bidra til å gjøre mensen lettere å snakke om. I tillegg ønsker vi at mensen skal bli en mer positiv ting i jenter og kvinners hverdag.
+<br><br>
+Mensen er en helt naturlig ting, og det derfor burde være helt naturlig å snakke om det.
+              </h5>
+              <!-- <div class="nucleo-container">
+							<img src="assets/img/nucleo.svg" alt="">
+						</div> -->
+              <a href="https://punktumbutikken.ga/index.php/produkt/tante-rods-ultimate-guide-til-mensen-og-mat/" class="btn btn-primary btn-round btn-lg" target="_blank">Kjøp boken</a>
+              <a href="https://punktumbutikken.ga/index.php/produkt/ebok-tante-rods-ultimate-guide-til-mensen-og-mat/" class="btn btn-primary btn-simple btn-round btn-lg" target="_blank">Kjøp eBok</a>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <br>
+            <img class="d-none d-lg-block" src="https://punktumbutikken.ga/wp-content/uploads/2019/03/Skjermbilde-2019-03-09-kl.-00.04.39.png" alt="">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section-signup" style="background-image: url('assets/img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
+        <div class="container">
+          <div class="row">
+            <div class="card card-signup" style="background-color: #d97070; color: #ffffff;">
+              <form class="form" method="" action="">
+                <div class="card-header text-center">
+                  <h3 class="card-title title-up">Nyhetsbrev</h3>
+
+                </div>
+                <div class="card-body">
+
+              <h5 style="color: #ffffff;" class="description">
+                Få siste nytt fra Punktum UB ved å melde deg på vårt nyhetsbrev. Det er helt gratis.
+              </h5>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="http://eepurl.com/gcC2iL" class="btn btn-neutral btn-round btn-lg">Påmelding</a>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="section section-prosjekt" id="#prosjekt-section" data-background-color="black">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="text-center col-md-12 col-lg-8">
+              <h3 class="title">Om Prosjektet</h3>
+              <h5 class="description">Ideen om boka kom en dag vi skrev opp mange ord på tavla. Den forrige ideen var ikke lenger noe å skryte av, og vi var egentlig tomme for ideer. Men da dukket det opp to ord på tavla vi synes passet veldig bra sammen, nemlig; mensen og mat. Vi hadde aldri sett en kokebok som passer for når man har mensen. Derfor hadde vi veldig lyst til å lage en informativ og morsom bok som handler om nettopp dette tema. Boken skal i hovedsak inneholde informasjon om hvorfor man har mensen, historie om hva mensen har betydd gjennom noen århundre, tips, personlige erfaringer og deilige oppskrifter man kan lage når man har menstruasjon. </h5>
+            </div>
+
+          </div>
+          <br>
+          <br>
+          <br>
+            <div class="section section-oss" id="#oss-section" data-background-color="black">
+          <div class="row text-center mt-5">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Om oss</h3>
+              <h5 class="description">Vi er fire jenter i en ungdomsbedrift fra Hans Nielsen Hauge videregående skole i Fredrikstad. Under faget markedsføring har vi valgt å skrive og produsere en bok om mat og mensen. Ja, du leste riktig, en bok om mat og mensen. Boken skal i hovedsak inneholde informasjon om hvorfor man har mensen, historie om hva mensen har betydd gjennom noen århundre, tips, personlige erfaringer og deilige oppskrifter man kan lage når man har menstruasjon. </h5>
+            </div>
+</div>
+
+
+          </div>
+          <br>
+          <br>
+
+
+    <footer class="footer" data-background-color="black">
+      <div class="container">
+
+        <div class="copyright" id="copyright">
+          &copy;
+          <script>
+            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+          </script>, Punktum. Ungdomsbedrift. Ønsker du å kontakte oss, så kan det gjøres på <a href="mailto:mail@punktumub.com">mail@punktumub.com</a>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      // the body of this function is in assets/js/now-ui-kit.js
+      nowuiKit.initSliders();
+    });
+
+    function scrollToProsjekt() {
+
+      if ($('.section-prosjekt').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-prosjekt').offset().top
+        }, 1000);
+      }
+    }
+    function scrollToOss() {
+
+      if ($('.section-oss').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-oss').offset().top
+        }, 1000);
+      }
+    }
+  </script>
+</body>
+
+</html>
